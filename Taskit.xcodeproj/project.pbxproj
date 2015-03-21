@@ -18,6 +18,7 @@
 		DE42DE141ABC65B60027EE89 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42DE131ABC65B60027EE89 /* TaskDetailViewController.swift */; };
 		DE42DE161ABC767D0027EE89 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42DE151ABC767D0027EE89 /* Date.swift */; };
 		DE887C341ABD535E00F8232C /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE887C331ABD535E00F8232C /* AddTaskViewController.swift */; };
+		DEB57FC41ABDCFCD00ACD4A1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB57FC31ABDCFCD00ACD4A1 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		DE42DE131ABC65B60027EE89 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
 		DE42DE151ABC767D0027EE89 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		DE887C331ABD535E00F8232C /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		DEB57FC31ABDCFCD00ACD4A1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB57FC41ABDCFCD00ACD4A1 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +108,7 @@
 		DE42DDED1ABC2C290027EE89 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DEB57FC31ABDCFCD00ACD4A1 /* CoreData.framework */,
 				DE42DDEE1ABC2C290027EE89 /* Info.plist */,
 			);
 			name = "Supporting Files";

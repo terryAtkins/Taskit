@@ -17,22 +17,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        let date1 = Date.from(year: 2015, month: 03, day: 20)
-        let date2 = Date.from(year: 2015, month: 03, day: 20)
-        let date3 = Date.from(year: 2015, month: 03, day: 20)
-        
-        let task1 = TaskModel(task: "Study french", subtask: "Verbs in past and present", date: date1, completed: false)
-        let task2 = TaskModel(task: "Eat", subtask: "Piza", date: date2, completed: false)
-        let task3 = TaskModel(task: "Gym", subtask: "Run", date: date3, completed: false)
-        
-        let taskArray = [task1, task2, task3]
-        var completedArray = [TaskModel(task: "Code", subtask: "Task Project", date: date2, completed: true)]
-        
-        baseArray = [taskArray, completedArray]
-        
-        //        tableView.reloadData()  or we can add it here,
-        //        but viewDidLoad only gets called when first created
+
         
     }
     
